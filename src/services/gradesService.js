@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "http://localhost:3001";
+const baseUrl = "https://backend-notas-seven.vercel.app";
 
 export async function saveGrades(gradesData, setGradesData, setValues, setStudentsValues, setSubjectsValues, setCoursesValues){
 
